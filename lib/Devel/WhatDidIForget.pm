@@ -2,7 +2,7 @@ package Devel::WhatDidIForget;
 use strict;
 use warnings;
 
-sub DB::DB { warn 'DB' };
+sub DB::DB { die "You didn't forget anything." };
 
 my @forgotten;
 

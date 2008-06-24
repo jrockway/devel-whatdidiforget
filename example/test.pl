@@ -5,3 +5,6 @@ use warnings;
 
 use Your::Brain;
 use A::CPAN::Module;
+
+warn "test";
+
