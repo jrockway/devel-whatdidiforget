@@ -1,7 +1,6 @@
 package Devel::WhatDidIForget;
 use strict;
 use warnings;
-use IO::Scalar;
 
 sub DB::DB { warn 'DB' };
 
